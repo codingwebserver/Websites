@@ -3,4 +3,4 @@ Here you can find all projects for websites from where you can take inspiration
 
 To visit my site you can click on this link:
 <br>
-<a href="https://codingapp.net/" style="text-decoration: none;">CODINGAPP</a>
+<a href="https://codingapp.net/"><strong>CODINGAPP<strong></a>
