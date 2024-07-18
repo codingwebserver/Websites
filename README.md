@@ -1,7 +1,7 @@
 # Websites
-<p>Here you can find all projects for websites from where you can take inspiration
+Here you can find all projects for websites from where you can take inspiration
 
-To visit my site you can click on this link:</p>
+To visit my site you can click on this link:
 <br>
 <br>
 <strong>--> <strong><a href="https://codingapp.net/"><strong>CODINGAPP<strong></a>
