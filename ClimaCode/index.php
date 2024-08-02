@@ -3,12 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="
+        <?php 
+            $token = bin2hex(random_bytes(16));
+            $baseUrl = 'style.css' . '?token=' . $token;
+            echo $baseUrl;
+        ?>
+        ">
+    ">
     <title>Clima Code</title>
 </head>
 <body>
     <svg id="noise-svg">
-        <!-- gives background a bit of texture -->
         <filter id='noiseFilter'>
           <feTurbulence type='fractalNoise' baseFrequency='0.5' numOctaves='3' stitchTiles='stitch' />
         </filter>
@@ -21,7 +27,6 @@
             <div class="outer-window">
               <div class="window">
                 <div class="window-rounded">
-                  <?xml version="1.0" encoding="UTF-8"?>
                   <svg id="mountains" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 875.7 446.1">
                     <defs>
                       <clipPath id="clippath">
@@ -3677,6 +3682,12 @@
           </div>
         </div>
       </div>
-      <script src="script.js"></script>
+      <script src="
+        <?php 
+            $token = bin2hex(random_bytes(16));
+            $baseUrl = 'script.js' . '?token=' . $token;
+            echo $baseUrl;
+        ?>
+      "></script>
 </body>
 </html>
