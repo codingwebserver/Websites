@@ -14,7 +14,9 @@
 </head>
 <body>
     <div class="player">
-        <video src="#Video" id="video" controls autoplay loop></video>
+        <video id="video" controls autoplay loop>
+            <source src="#video" type="video/webm">
+        </video>
         <canvas id="light"></canvas>
     </div>
     <div class="container">
