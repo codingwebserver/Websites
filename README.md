@@ -7,6 +7,6 @@ To visit my site you can click on this link:
 <strong>--> <strong><a href="https://codingapp.net/"><strong>CODINGAPP<strong></a>
 <br>
 <p>or scan this QRCODE</p>
-<img src="images/QRCode/qr-code.png" style="width: 50%; display: block; margin-left: auto; margin-right: auto;">
+<div style="display: flex; justify-content: center; align-items: center;"><img src="images/QRCode/qr-code.png" style="width: 50%; display: block; margin-left: auto; margin-right: auto;"></div>
 
 
