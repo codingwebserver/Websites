@@ -10,16 +10,14 @@ iconify-icon{
     color: white;
 }
 
-.center
-{
+.center{
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
 }
 
-.download-btn
-{
+.download-btn{
     display: inline-flex;
     align-items: center;
     padding: 22px 40px 22px 40px;
@@ -30,8 +28,7 @@ iconify-icon{
     cursor: pointer;
 }
 
-.download-btn span
-{
+.download-btn span{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -41,49 +38,39 @@ iconify-icon{
     margin-right: 15px;
 }
 
-.check-icon
-{
+.check-icon{
     display: none;
     transform: translateX(-180%), translateY(200%);
 }
 
-.download-btn .cloud-icon, .download-btn span, .download-btn, .download-btn .check-icon
-{
+.download-btn .cloud-icon, .download-btn span, .download-btn, .download-btn .check-icon{
     transition: all .5s ease-in-out;
 }
 
-svg
-{
+svg{
     overflow: visible;
 }
 
-.download-btn:hover
-{
+.download-btn:hover{
     background: #0160be;
 }
 
-.download-btn .cloud-icon
-{
+.download-btn .cloud-icon{
     transform: scale(1.25);
     animation: pulseAnimation 1500ms infinite;
 }
 
-@keyframes pulseAnimation
-{
-	0% 
-	{
+@keyframes pulseAnimation{
+	0% {
     	box-shadow: 0 0 0 0 #dad60a;
     	border-radius: 100%;
-    }
-	100% 
-	{
+    }100% {
     	box-shadow: 0 0 0 17px #fbb32f01;
 	
     }
 }
 
-.finish
-{
+.finish{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -94,7 +81,6 @@ svg
     display: none;
 }
 
-.finish.F
-{
+.finish.F{
     display: flex;
 }
