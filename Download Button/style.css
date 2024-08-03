@@ -62,11 +62,10 @@ svg{
 
 @keyframes pulseAnimation{
 	0% {
-    	box-shadow: 0 0 0 0 #dad60a;
-    	border-radius: 100%;
-    }100% {
-    	box-shadow: 0 0 0 17px #fbb32f01;
-	
+    	  box-shadow: 0 0 0 0 #dad60a;
+    	  border-radius: 100%;
+    	}100% {
+    	  box-shadow: 0 0 0 17px #fbb32f01;
     }
 }
 
