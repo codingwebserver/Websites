@@ -6,7 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title title="Download Button">Download Button</title>
     <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="
+        <?php 
+            $token = bin2hex(random_bytes(16));
+            $baseUrl = 'style.css' . '?token=' . $token;
+            echo $baseUrl;
+        ?>
+        ">
 </head>
 <body>
     <div class="center" title="Download">
@@ -17,6 +23,12 @@
             <iconify-icon class="check-icon" icon="akar-icons:check" width="40" height="40"></iconify-icon>
         </button>
     </div>
-    <script src="script.js"></script>
+    <script src="
+        <?php 
+            $token = bin2hex(random_bytes(16));
+            $baseUrl = 'script.js' . '?token=' . $token;
+            echo $baseUrl;
+        ?>
+        "></script>
 </body>
 </html>
